@@ -1,0 +1,23 @@
+{
+  "name": "box2d-web-testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2",
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-static-copy": "^3.1.2"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3",
+    "box2d-wasm": "^7.0.0"
+  }
+}
